@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.header {
+    max-width:1440px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: -10px;
+    display: flex;
+    background-image:url('./man.jpg');
+    background-size: cover;
+}
+
+.header-left{
+    max-width: 720px;
+    width: 100%;
+    height: 130px;
+    background: #c6c6ce;
+    display: flex;
+    z-index: 1;
+}
+
+.header-right{
+    max-width: 720px;
+    width: 100%;
+    height: 130px;
+    background: #c6c6ce;
+    display: flex;
+    z-index: 2;
+}
+
+h1{
+    display: inline-block;
+    position: absolute;
+    color: #ff0000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 46px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.logo{
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 46px;
+}
+
+.red{
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+nav a:hover{
+    color: #ff0000;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+nav li{
+    display: inline-flex;
+    margin-left: 120px;
+}

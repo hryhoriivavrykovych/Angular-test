@@ -1,0 +1,15 @@
+.content{
+    max-width:1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+    color: #616164;
+}
